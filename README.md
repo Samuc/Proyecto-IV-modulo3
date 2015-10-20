@@ -12,7 +12,7 @@ Debido a la naturaleza de la plataforma, orientada mayormente al campo abierto, 
 
 Además , la plataforma actuará como una especia de red social, siendo capaz cada usuario de tener su red de amigos, así como de permanecer en contacto con estos por mensajería.
 
-## Descripción del Módulo 1
+## Descripción del Módulo 3
 
 Éste módulo se dedicará a los servicios que ofrece el servidor de nuestro sistema web.
 Los servicios incluy en la conexión de la aplicación con las bases de datos, el despliegue/configuración de la misma, procesamiento de las peticiones de los usuarios etc.
