@@ -1,0 +1,139 @@
+body{
+    background-color: cornflowerblue;
+}
+div.container {
+    width: 700px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo {
+    #background-color: white;
+    text-align:left ;
+    #width: 340px
+    width: 250px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 40px;
+    #border-style: solid;
+    #border-width: 2px;
+}
+
+#login {
+    height:87px;
+    background-color: white;
+    float: top;
+    clear: right;
+    float: left;
+    width: 250px;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 10px;
+    padding-top: 12px;
+}
+
+#signup {
+    height:292px;
+    background-color: white;
+    float:top;
+    float: left;
+    width: 250px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+form {
+    font-size: 10px;
+    font-family: Arial;
+    text-align: right;
+
+}
+
+label{
+    clear: left;
+    float: left;
+    margin: 3px;
+}
+
+input{
+    text-align: right;
+    margin: 3px;
+}
+
+.formsignupinput{
+    width: 60%;
+    margin: 0.7%;
+}
+
+#gender{
+    width: 71%;
+    text-align: left;
+    margin: 3px;
+}
+
+.formtitle{
+    float: left;
+    font-family: Helvetica;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+}
+
+#tabs{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    float: top;
+    width: 600px;
+    height: 70px;
+}
+
+#panel{
+    margin-left: auto;
+    margin-right: auto;
+    float: top;
+    width: 600px;
+    height:500px;
+}
+
+.tab{
+    float: left;
+    width: 200px;
+    height: 70px;
+}
+
+.border{
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.innerpanel{
+    width: 596px;
+    height:496px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: white;
+}
+
+.tabtitle{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+.paneltitle{
+    font-family: Monaco;
+    color: darkblue;
+    font-size: 16px;
+    text-align: center;
+}
+
+.info{
+    float: left;
+}

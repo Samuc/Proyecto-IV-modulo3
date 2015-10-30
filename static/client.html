@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link href="client.css" type="text/css" rel="stylesheet">
+    <script src="client.js" type="text/javascript"></script>
+
+    <script id="welcomeview" type=”text/view”>
+    <div class="container">
+        <div id="logo">
+            <img src="welcome.jpg"/>
+        </div>
+
+        <div id="login">
+            <form id="formlogin"  onsubmit="loginPass();return false">
+                <label>Email:</label>
+                <input id="emaillogin" type="email" required="true">
+                <br>
+                <label>Contraseña:</label>
+                <input id="passlogin" type="password" required="true">
+                <br>
+                <input id="submitlogin" type="submit" value="login" required="true">
+
+            </form>
+
+
+        </div>
+
+        <div id="signup">
+            <form id="formsignup" title="Registro">
+                <strong class="formtitle">Registro</strong>
+                <br>
+
+                <label>Nombre:</label>
+                <input id="firstname" class="formsignupinput" type="text" required="true">
+                <br>
+                <label>Apellidos:</label>
+                <input id="familyname"  class="formsignupinput" type="text" required="true">
+                <br>
+                <label>Sexo:</label>
+                <select id="gender">
+                    <option value="Male">Hombre</option>
+                    <option value="Female">Mujer</option>
+                </select>
+                <br>
+                <label>Ciudad:</label>
+                <input id="city"  class="formsignupinput" type="text" required="true">
+                <br>
+                <label>País:</label>
+                <input id="country"  class="formsignupinput" type="text" required="true">
+                <br>
+                <label>Email:</label>
+                <input id="email"  class="formsignupinput" type="email" required="true">
+                <br>
+                <label>Contraseña:</label>
+                <input id="password" class="formsignupinput"  type="password" required="true">
+                <br>
+                <label>Repítala:</label>
+                <input id="password2"  class="formsignupinput" type="password" required="true">
+                <br>
+
+                <input id="submit" type="submit" value="Unirse">
+            </form>
+        </div>
+    </div>
+    </script>
+
+    <script id="welcomeview" type=”text/view”>
+    </script>
+</head>
+<body>
+    <div id="Main"></div>
+</body>
+</html>
