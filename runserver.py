@@ -7,7 +7,6 @@ app = Flask(__name__, static_url_path='')
 def hello():
     return app.send_static_file('client.html')
 
-
 class User (unittest.TestCase):
     name =  "Prueba_test"
     id = "123_test"
