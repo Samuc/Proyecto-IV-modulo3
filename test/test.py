@@ -1,7 +1,3 @@
-#! /usr/bin/env python
-#
-#Criba de Eratostenes -- Rafael Lachica Garrido
-
 n = 1000;
 matriz = [n]
 
