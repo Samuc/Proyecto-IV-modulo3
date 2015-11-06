@@ -33,4 +33,3 @@ class User (unittest.TestCase):
         self.assertEqual(gender,"male")
 
         return gender
-
