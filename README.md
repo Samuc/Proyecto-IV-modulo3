@@ -1,10 +1,8 @@
 # Work-in-out
 
 Samuel Carmona Soria [![Build Status](https://travis-ci.org/Samuc/Proyecto-IV-modulo3.svg)](https://travis-ci.org/Samuc/Proyecto-IV-modulo3)
-#PRIMER HITO#
 ### Plataforma enfocada a los deportistas, híbrido entre red social y tablón de eventos. Proyecto relacionado con la asignatura DAI.
 ## Descripción
-
 El proyecto consiste en una plataforma virtual pensada a modo de híbrido entre red social y tablón de eventos. La plataforma se centra en los deportistas y pretende abarcar todo su rango, desde principiantes a avanzados.
 Entrando en detalle, la plataforma consistiría en un sitio web donde es necesario el registro, y en el cual se tiene acceso a un tablón de eventos donde los distintos usuarios puede tanto visualizar (y unirse) a los eventos ya creados por otros usuarios como también crear un evento nuevo, al cual los demás puedan unirse.
 
@@ -41,20 +39,18 @@ Además , la plataforma actuará como una especia de red social, siendo capaz ca
 
 * **MySQL**, para bases de datos de usuarios y eventos.
 
-## Descripción del Módulo 3
-
+## Descripción de la inmplicación en el proyecto conjunto
 Éste módulo se dedicará a los servicios que ofrece el servidor de nuestro sistema web.
 Los servicios incluyen la conexión de la aplicación con las bases de datos, el despliegue/configuración de la misma, procesamiento de las peticiones de los usuarios etc.
 
 Para éste módulo se usará el microfamework Flask basado en el lenguage Python.
+
 
 ## Participación en el certamen de proyectos de libres organizado por la Oficina de Software Libre de la UGR
 El proyecto ha sido inscrito en el certamen de proyectos libres de la UGR.
 
 
 
-
-#SEGUNDO HITO#
 #Desarrollo basado en pruebas
 #Avances en el proyecto
 Para un primer avance en el proyecto hemos creado una pantalla de login de usuario y de registro, con su hoja de estilo correspondiente.
@@ -63,12 +59,11 @@ Y además, un formulario de registro para registrar nuevos usuarios. También he
 
 Éstos ficheros creados se pueden ver en la carpeta static en éste repositorio.
 
-También, he creado una clase básica sobre la que poder realizar test básicos con el fin de éste hito.
+También, he creado una clase básica sobre la que poder realizar test básicos.
 Ésta clase es "User", que contendrá funciones básicas como get_email, get_id, login, etc.
 
 También hemos empezado a gestionar el logeo de usuarios registrados, aunque aún no está operativo.
 Éste avance se encuentra en Work-in-out/__init__.py
-
 
 #Makefile
 He creado un makefile para automatizar la instalación de los paquetes necesarios, y ejecución del programa, añadiendo la opción para hacer limpieza y test con la herramienta nose:
@@ -165,3 +160,26 @@ Ahora, tras haber preparado los tests y el archivo ".travis.yml" procedemos a ha
 
 Como vemos en la siguiente captura, el push se ha realizado correctamente, se han pasado los tests y han concluido sin problemas:
 ![travis2](http://i770.photobucket.com/albums/xx346/BkY_1234/capturaTravis_zpsljyursje.jpg)
+
+
+### Despliegue en un PaaS: [Heroku](https://www.heroku.com/)
+La Plataforma como servicio (PaaS) por la que nos hemos decantado a sido Heroku, debido a que es fácil de usar y gratuito hasta cierto punto.
+Además tiene fácil integración con GitHub, despliegue automático al hacer cada "push" al repositorio en Git y se espera a que Travis-CI pase los tests satisfactoriamente.
+
+Creamos el  fichero "Procfile" el cual contiene la orden necesaria para ejecutar la aplicación web.
+[Procfile](https://github.com/Samuc/Proyecto-IV-modulo3/blob/master/Procfile)
+```
+web: python runserver.py
+```
+
+También, hemos creado el fichero "requirements.txt", en el que indica las dependencias y su versión en concreto. Este fichero sería neceasria aunque la aplicación no tuviese ninguna dependencia. (estaría vacío)
+
+[requirements.txt](https://github.com/Samuc/Proyecto-IV-modulo3/blob/master/requirements.txt):
+
+```Flask==0.10.1
+Flask-WTF==0.12
+Jinja2==2.8
+MarkupSafe==0.23
+WTForms==2.0.2
+MySQL-python==1.2.3
+```
