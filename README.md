@@ -1,6 +1,8 @@
 # Work-in-out
 
-Samuel Carmona Soria [![Build Status](https://travis-ci.org/Samuc/Proyecto-IV-modulo3.svg)](https://travis-ci.org/Samuc/Proyecto-IV-modulo3)
+Samuel Carmona Soria [![Build Status](https://travis-ci.org/Samuc/Proyecto-IV-modulo3.svg)](https://travis-ci.org/Samuc/Proyecto-IV-modulo3) [ [![Snap-CI](https://snap-ci.com/Samuc/Proyecto-IV-modulo3/branch/master/build_image)](https://snap-ci.com/Samuc/Proyecto-IV-modulo3/branch/master) ![Heroku](https://www.herokucdn.com/deploy/button.png)](https://work-in-out-samuc.herokuapp.com/)
+
+
 ### Plataforma enfocada a los deportistas, híbrido entre red social y tablón de eventos. Proyecto relacionado con la asignatura DAI.
 ## Descripción
 El proyecto consiste en una plataforma virtual pensada a modo de híbrido entre red social y tablón de eventos. La plataforma se centra en los deportistas y pretende abarcar todo su rango, desde principiantes a avanzados.
@@ -12,6 +14,8 @@ Debido a la naturaleza de la plataforma, orientada mayormente al campo abierto, 
 Además , la plataforma actuará como una especia de red social, siendo capaz cada usuario de tener su red de amigos, así como de permanecer en contacto con estos por mensajería.
 
 ## Requisitos básicos
+
+* Registro de usuarios
 
 * Tablón de eventos
 
@@ -49,21 +53,9 @@ Para éste módulo se usará el microfamework Flask basado en el lenguage Python
 ## Participación en el certamen de proyectos de libres organizado por la Oficina de Software Libre de la UGR
 El proyecto ha sido inscrito en el certamen de proyectos libres de la UGR.
 
-
-
 #Desarrollo basado en pruebas
-#Avances en el proyecto
-Para un primer avance en el proyecto hemos creado una pantalla de login de usuario y de registro, con su hoja de estilo correspondiente.
-Y además, un formulario de registro para registrar nuevos usuarios. También hemos añadido comprobación de campos al rellenar los formularios, como por ejemplo que no estén vacíos, que el formato del email tenga un formato correcto, etc.
-![Login Work-in-out](http://i770.photobucket.com/albums/xx346/BkY_1234/captura_clienthtml_zpshnc3jzys.jpg)
-
-Éstos ficheros creados se pueden ver en la carpeta static en éste repositorio.
-
-También, he creado una clase básica sobre la que poder realizar test básicos.
+Hemos creado una clase básica sobre la que poder realizar test básicos.
 Ésta clase es "User", que contendrá funciones básicas como get_email, get_id, login, etc.
-
-También hemos empezado a gestionar el logeo de usuarios registrados, aunque aún no está operativo.
-Éste avance se encuentra en Work-in-out/__init__.py
 
 #Makefile
 He creado un makefile para automatizar la instalación de los paquetes necesarios, y ejecución del programa, añadiendo la opción para hacer limpieza y test con la herramienta nose:
@@ -237,3 +229,11 @@ Y ahora configuramos el pipeline tal cual muestra las siguientes imágenes:
 
 Finalmente, guardamos la configuración, hacemos un commit modificando éste readme y hacemos un push a git, esperamos y obtenemos en SNAP que se ha realizado el deployment correctamente:
 ![Deployment SNAP-CI passed](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah6_zpstyll3hv9.jpg)
+
+
+#Avances en el proyecto
+Hemos creado una pantalla de login de usuario y de registro, con su hoja de estilo correspondiente.
+Y además, un formulario de registro para registrar nuevos usuarios. También hemos añadido comprobación de campos al rellenar los formularios, como por ejemplo que no estén vacíos, que el formato del email tenga un formato correcto, etc.
+![Login Work-in-out](http://i770.photobucket.com/albums/xx346/BkY_1234/captura_clienthtml_zpshnc3jzys.jpg)
+
+Éstos ficheros creados se pueden ver en la carpeta static en éste repositorio.
