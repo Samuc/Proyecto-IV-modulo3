@@ -192,6 +192,7 @@ Para modificar dicho nombre, entramos en la configuración de la aplicación y l
 ![work-in-out-samuc](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah1_zpsuhzgqnka.jpg)
 
 Ahora, para hacer uso de la integración contínua con GitHub, que podemos hacerla desde Heroku o con Snap-CI.
+###Integración con Heroku
 Primero vamos a realizarla la primera opción, configuramos la sección correspondiente en la web de heroku.
 Conectamos la app con éste repositorio, activamos la opción de que espere a que pase satisfactoriamente los tests y activamos el despliegue automático.
 ![Configuración integración contínua](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah2_zpswbsolwpy.jpg)
@@ -219,7 +220,7 @@ samu@samu: ~/Facultad/IV/Proyecto-IV-modulo3
 
 En el siguiente link se encuentra la aplicación ya desplegada en Heroku: [Aquí](https://work-in-out-samuc.herokuapp.com/) ó https://work-in-out-samuc.herokuapp.com/
 
-
+###Integración con SNAP-CI
 Para la integración con SNAP-CI, en su web se nos identifica con los datos de GitHub, nos muestra automáticamente nuestros repositorios y añadimos el repositorio actual de la aplicación.
 
 Y ahora configuramos el pipeline tal cual muestra las siguientes imágenes:
@@ -231,7 +232,7 @@ Finalmente, guardamos la configuración, hacemos un commit modificando éste rea
 ![Deployment SNAP-CI passed](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah6_zpstyll3hv9.jpg)
 
 
-#Avances en el proyecto
+###Avances en el proyecto
 Hemos creado una pantalla de login de usuario y de registro, con su hoja de estilo correspondiente.
 Y además, un formulario de registro para registrar nuevos usuarios. También hemos añadido comprobación de campos al rellenar los formularios, como por ejemplo que no estén vacíos, que el formato del email tenga un formato correcto, etc.
 ![Login Work-in-out](http://i770.photobucket.com/albums/xx346/BkY_1234/captura_clienthtml_zpshnc3jzys.jpg)
