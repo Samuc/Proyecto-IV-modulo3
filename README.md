@@ -1,6 +1,6 @@
 # Work-in-out
 
-Samuel Carmona Soria [![Build Status](https://travis-ci.org/Samuc/Proyecto-IV-modulo3.svg)](https://travis-ci.org/Samuc/Proyecto-IV-modulo3) [ [![Snap-CI](https://snap-ci.com/Samuc/Proyecto-IV-modulo3/branch/master/build_image)](https://snap-ci.com/Samuc/Proyecto-IV-modulo3/branch/master) ![Heroku](https://www.herokucdn.com/deploy/button.png)](https://work-in-out-samuc.herokuapp.com/)
+Samuel Carmona Soria [![Build Status](https://travis-ci.org/Samuc/Proyecto-IV-modulo3.svg)](https://travis-ci.org/Samuc/Proyecto-IV-modulo3) [ [![Snap-CI](https://snap-ci.com/Samuc/Proyecto-IV-modulo3/branch/master/build_image)](https://snap-ci.com/Samuc/Proyecto-IV-modulo3/branch/master) [![Heroku](https://www.herokucdn.com/deploy/button.png)](https://work-in-out-samuc.herokuapp.com/)
 
 
 ### Plataforma enfocada a los deportistas, híbrido entre red social y tablón de eventos. Proyecto relacionado con la asignatura DAI.
