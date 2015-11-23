@@ -8,9 +8,11 @@ test:
 install:
 	sudo apt-get install libmysqlclient-
 	sudo apt-get install python-dev
-	pip install --upgrade pip
-	pip install MySQL-python
-	pip install Flask
-	pip install nose
+	sudo apt-get install mysql-python
+	sudo pip install --upgrade pip
+	sudo pip install MySQL-python
+	sudo pip install Flask
+	sudo pip install nose
+	sudo pip install -r requirements.txt
 run:
 	python runserver.py
