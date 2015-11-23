@@ -197,12 +197,12 @@ heroku create
 ```
 La ejecución nos dice que la aplicación estará disponible en un link con un nombre por defecto.
 Para modificar dicho nombre, entramos en la configuración de la aplicación y le llamamos por ejemplo "work-in-out-samuc".
-[work-in-out-samuc](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah1_zpsuhzgqnka.jpg)
+![work-in-out-samuc](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah1_zpsuhzgqnka.jpg)
 
 Ahora, para hacer uso de la integración contínua con GitHub, que podemos hacerla desde Heroku o con Snap-CI.
 Primero vamos a realizarla la primera opción, configuramos la sección correspondiente en la web de heroku.
 Conectamos la app con éste repositorio, activamos la opción de que espere a que pase satisfactoriamente los tests y activamos el despliegue automático.
-[Configuración integración contínua](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah2_zpswbsolwpy.jpg)
+![Configuración integración contínua](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah2_zpswbsolwpy.jpg)
 
 Ahora, podemos realizar un commit cualquiera (modificando por ejemplo éste mismo README.md) para realizar el despliegue en heroku, con los siguientes comandos tras haber realizado lo dicho anteriormente (login y create):
 ```
@@ -231,6 +231,9 @@ En el siguiente link se encuentra la aplicación ya desplegada en Heroku: [Aquí
 Para la integración con SNAP-CI, en su web se nos identifica con los datos de GitHub, nos muestra automáticamente nuestros repositorios y añadimos el repositorio actual de la aplicación.
 
 Y ahora configuramos el pipeline tal cual muestra las siguientes imágenes:
-[GitHub information](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah3_zpse9qhlqgn.jpg)
-[Tests configuration](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah5_zps23ln3cir.jpg)
-[Deploy Configuration](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah4_zpsbxrmb8sv.jpg)
+![GitHub information](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah3_zpse9qhlqgn.jpg)
+![Tests configuration](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah5_zps23ln3cir.jpg)
+![Deploy Configuration](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah4_zpsbxrmb8sv.jpg)
+
+Finalmente, guardamos la configuración, hacemos un commit modificando éste readme y hacemos un push a git, esperamos y obtenemos en SNAP que se ha realizado el deployment correctamente:
+![Deployment SNAP-CI passed](http://i770.photobucket.com/albums/xx346/BkY_1234/capturah6_zpstyll3hv9.jpg)
