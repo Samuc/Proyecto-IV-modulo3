@@ -65,7 +65,7 @@ samu@samu: ~/Facultad/IV/Proyecto-IV-modulo3
 En el siguiente link se encuentra la aplicación ya desplegada en Heroku: [Aquí](https://work-in-out-samuc.herokuapp.com/) ó https://work-in-out-samuc.herokuapp.com/
 
 
-Para agilizar el uso de docker he creado el siguiente [script](https://github.com/Samuc/Proyecto-IV-modulo3/script/heroku.sh)
+Para agilizar el uso de docker he creado el siguiente [script](https://github.com/Samuc/Proyecto-IV-modulo3/blob/master/scripts/docker.sh)
 
 Para su ejecución realizaros:
 ```
