@@ -171,7 +171,7 @@ Finalmente, guardamos la configuración, hacemos un commit modificando éste rea
 La Plataforma como servicio (PaaS) por la que nos hemos decantado a sido Heroku, debido a que es fácil de usar, gratuito hasta cierto punto y es totalmente compatible con el lenguaje Python.
 Además tiene fácil integración con GitHub, despliegue automático al hacer cada "push" al repositorio en Git y se espera a que Travis-CI pase los tests satisfactoriamente.
 
-Para más información, sobre como se ha realizado la imagen en Heroku, su instalación, script, etc acceder a ésta [documentación](https://github.com/Samuc/Proyecto-IV-modulo3/Documentacion/Heroku.md)
+Para más información, sobre como se ha realizado la imagen en Heroku, su instalación, script, etc acceder a ésta [documentación](https://github.com/Samuc/Proyecto-IV-modulo3/blob/master/Documentacion/Heroku.md)
 
 
 ##Entorno de pruebas : Docker
@@ -179,7 +179,7 @@ Se usa Docker como plataforma que automatiza el despliegue de la aplicación den
 
 Se puede acceder a la imagen en  docker en el siguiente [enlace](https://hub.docker.com/r/samucs/proyecto-iv//)
 
-Para más información, sobre como se ha realizado la imagen en Docker, su instalación, script, etc acceder a ésta [documentación](https://github.com/Samuc/Proyecto-IV-modulo3/Documentacion/Docker.md)
+Para más información, sobre como se ha realizado la imagen en Docker, su instalación, script, etc acceder a ésta [documentación](https://github.com/Samuc/Proyecto-IV-modulo3/blob/master/Documentacion/Docker.md)
 
 
 ###Avances en el proyecto
