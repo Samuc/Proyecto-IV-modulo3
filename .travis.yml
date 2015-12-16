@@ -10,7 +10,6 @@ install:
    - sudo pip install MySQL-python
    - sudo pip install Flask
    - sudo pip install nose
-   - sudo pip install -r requirements.txt
 
 script:       # script para tests
    - nosetests
