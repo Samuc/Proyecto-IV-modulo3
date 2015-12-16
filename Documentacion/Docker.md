@@ -93,9 +93,9 @@ sudo docker push samucs/proyecto-iv:latest
 Se puede ver la imagen subida a Docker [aquí](https://hub.docker.com/r/samucs/proyecto-iv//)
 
 
-Para agilizar el uso de docker he creado el siguiente [script](https://github.com/Samuc/Proyecto-IV-modulo3/script/docker.sh)
+Para agilizar el uso de docker he creado el siguiente [script](https://github.com/Samuc/Proyecto-IV-modulo3/blob/master/scripts/docker.sh)
 
 Para su ejecución realizaros:
 ```
-sudo ./heroku.sh
+sudo ./docker.sh
 ```
