@@ -69,5 +69,5 @@ Para agilizar el uso de docker he creado el siguiente [script](https://github.co
 
 Para su ejecución realizaros:
 ```
-sudo ./docker.sh
+sudo ./heroku.sh
 ```
