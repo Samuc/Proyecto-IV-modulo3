@@ -177,7 +177,7 @@ Para más información, sobre como se ha realizado la imagen en Heroku, su insta
 ##Entorno de pruebas : Docker
 Se usa Docker como plataforma que automatiza el despliegue de la aplicación dentro de contenedores software, de manera que pueda probarse en un entorno aislado antes de desplegarla a producción.
 
-Se puede acceder a la imagen en  docker en el siguiente [enlace](https://hub.docker.com/r/samucs/proyecto-iv//)
+Se puede acceder a la imagen en  docker en el siguiente [enlace](https://hub.docker.com/r/samucs/proyecto-iv/)
 
 Para más información, sobre como se ha realizado la imagen en Docker, su instalación, script, etc acceder a ésta [documentación](https://github.com/Samuc/Proyecto-IV-modulo3/blob/master/Documentacion/Docker.md)
 
