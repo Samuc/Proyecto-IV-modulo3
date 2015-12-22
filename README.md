@@ -186,6 +186,6 @@ Para más información, sobre como se ha realizado la imagen en Docker, su insta
 ###Avances en el proyecto
 Hemos creado una pantalla de login de usuario y de registro, con su hoja de estilo correspondiente.
 Y además, un formulario de registro para registrar nuevos usuarios. También hemos añadido comprobación de campos al rellenar los formularios, como por ejemplo que no estén vacíos, que el formato del email tenga un formato correcto, etc.
-![Login Work-in-out](http://i770.photobucket.com/albums/xx346/BkY_1234/captura_clienthtml_zpshnc3jzys.jpg)
+![Login Work-in-out](http://i770.photobucket.com/albums/xx346/BkY_1234/capturaWORKINOUT_zps1gxrgatx.jpg)
 
 Éstos ficheros creados se pueden ver en la carpeta static en éste repositorio.
